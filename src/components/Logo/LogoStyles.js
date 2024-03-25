@@ -7,6 +7,7 @@ export const LogoContainer = styled.div`
   margin-bottom: 80px;
   display: block;
   overflow-x: hidden;
+  width: 100%;
 
   @media  (max-width: 768px) {
     overflow-x: hidden;
@@ -66,6 +67,7 @@ export const LogoWrap2 = styled.div`
 
 export const LogoImg = styled.img`
   height: 45px;
+  margin: 0 20px;
 `
 
 export const H4 = styled.h4`
