@@ -1,7 +1,7 @@
 import React from 'react';
 import Typed from 'typed.js';
-import Video from '../../videos/video.mp4';
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, Span } from './HeroStyles';
+import Image from '../../images/hero.jpg';
+import { HeroContainer, HeroBg, ImageBg, HeroContent, HeroH1, HeroP, Span } from './HeroStyles';
 import DownloadApp from '../DownloadApp';
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
     <>
         <HeroContainer id="home">
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                <ImageBg src={Image} />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Take control of your <Span ref={anim}/> </HeroH1> 

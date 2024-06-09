@@ -7,7 +7,14 @@
 
 
 body {
-    overflow-x: hidden;
+    width: 100vw;
     position: sticky;
+    overflow-x: hidden;
+}
+
+
+.main-page {
+    overflow-x: hidden;
+    width: 100%;
 }
 

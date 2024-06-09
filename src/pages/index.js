@@ -17,7 +17,7 @@ const Home = () => {
     };
 
   return (
-    <div>
+    <div className="main-page">
     <Sidebar isOpen={isOpen} toggle={toggle} />
     <Navbar toggle={toggle}/>
     <Hero/>
